@@ -17,10 +17,3 @@ to_folder = "c:\\user\\backup_of_my_files"
 mybackup = extractor.Extractor(from_folder, to_folder)
 
 ```
-
-
-
-## Use example
-**$ python3 main.py "user/myfoldertobackup" "user/folderdestination"** #Specify folder to backup
-
-**python3 main.py "user/myfoldertobackup"** #Use parent folder as destination
