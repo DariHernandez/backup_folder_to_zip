@@ -4,9 +4,22 @@ Copies an entire folder and its contains into a zip file whose filename incremen
 ## Install
 
 ## How to use
-Open the program by terminal. 
-Write as frist argument the folder to bacup to zip.
-The second optional parameter is the folder destination. If you dont write folder destination, the program will use the parent folder.
+
+``` bash
+# Import pakage
+from backup_folder_to_zip import backup
+
+#  Save local folders
+from_folder = "c:\\user\\my_files"
+to_folder = "c:\\user\\backup_of_my_files"
+
+# backup folder 
+mybackup = extractor.Extractor(from_folder, to_folder)
+
+```
+
+
+
 ## Use example
 **$ python3 main.py "user/myfoldertobackup" "user/folderdestination"** #Specify folder to backup
 
