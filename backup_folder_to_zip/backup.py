@@ -4,8 +4,6 @@
 
 import zipfile, os, sys
 
-
-
 folderToZip = ''
 folderDestination = ''
 
